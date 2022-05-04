@@ -1,0 +1,109 @@
+.ui-widget.ui-widget-content {
+  z-index: 0;
+  border: none;
+}
+
+.ui-tabs .ui-tabs-nav {
+  display: block;
+  padding: 0;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+  border: none;
+  background: transparent;
+  font-weight: normal;
+  color: #333;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+  border: none;
+  background: transparent;
+  font-weight: normal;
+  color: #333;
+}
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+  color: #FF9900;
+  text-decoration: none;
+}
+
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  float: left;
+  padding: 0;
+  text-decoration: none;
+}
+
+.ui-tabs:not(:last-child) .ui-tabs-nav:not(:last-child) li:not(:last-child) {
+  list-style: none;
+  float: left;
+  position: relative;
+  top: 0;
+  margin: 0;
+  margin-right: 95px;
+  border-bottom-width: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.ui-widget-header {
+  border: none;
+  background: transparent;
+  color: #333333;
+  font-weight: bold;
+}
+
+.ui-tabs .ui-tabs-panel {
+  display: block;
+  border-width: 0;
+  margin-top: 30px;
+  margin-bottom: 0;;
+  padding: 0;
+  background: none;
+  width: 100%;
+}
+
+
+
+.working__img-banner-1 {
+  display: block;
+  /* width: 870px;
+  height: 465px; */
+  transform: translateY(10px);
+  background: url(../img/working-banner-1.png) no-repeat transparent;
+}
+
+.working__img-banner-2 {
+  display: block;
+  /* width: 870px;
+  height: 465px; */
+  transform: translateY(10px);
+  background: url(../img/working-banner-2.png) no-repeat transparent;
+}
+
+.working__img-banner-3 {
+  display: block;
+  /* width: 870px;
+  height: 465px; */
+  transform: translateY(10px);
+  background: url(../img/working-banner-3.png) no-repeat transparent;
+}
+
+.working__img-banner-4 {
+  display: block;
+  /* width: 870px;
+  height: 465px; */
+  transform: translateY(10px);
+  background: url(../img/working-banner-4.png) no-repeat transparent;
+}
+
+.with-tab {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .tab-description {
+  margin-top: 20px;
+  width: 43%;
+  line-height: 32px;
+} */
+

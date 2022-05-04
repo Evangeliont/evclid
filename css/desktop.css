@@ -1,0 +1,63 @@
+@media (max-width: 1800px) and (min-width: 1024px) {
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .content_img {
+    display: block;
+    position: relative;
+    width: 100%;
+    background: url('../img/about__banner.png') no-repeat transparent;
+  }
+
+  .working__action {
+    display: inline-block;
+    font-size: 0;
+  }
+
+  .working__img {
+    width: 437px;
+    height: 689px;
+  }
+
+  .content__item {
+    display: block;
+    padding: 20px 118px 20px 63px;
+    border: 1px solid #CACACA;
+  }
+
+  .content__description {
+    font-size: 13px;
+  }
+
+  .content__icon {
+    margin-right: 82px;
+    width: 80px;
+    height: 80px;
+}
+
+  .form__action-footer {
+    display: inline-block;
+  }
+
+  .form__check {
+    margin-left: 0;
+  }
+
+  .form__btn {
+    margin-bottom: 25px;
+  }
+
+  .footer__container {
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    height: 630px;
+  }
+
+  .card:not(:last-child) {
+    margin-right: 20px;
+  }
+}
