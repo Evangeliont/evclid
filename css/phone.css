@@ -763,7 +763,7 @@
   .ui-widget-content .ui-icon {
     display: inline-block;
     margin-left: auto;
-    min-width: 30px;
+    min-width: 50px;
     transform: translateY(2px);
     background: url('../img/аккордеон.svg') right center no-repeat transparent;
   }
@@ -774,7 +774,7 @@
   .ui-button:focus .ui-icon {
     display: inline-block;
     margin-left: auto;
-    min-width: 30px;
+    min-width: 50px;
     transform: translateY(2px);
     background: url('../img/аккордеон.svg') right center no-repeat transparent;
     transition: all .3s;
@@ -783,7 +783,7 @@
   .ui-state-active .ui-icon, .ui-button:active .ui-icon {
     display: inline-block;
     margin-left: auto;
-    min-width: 30px;
+    min-width: 50px;
     transform: translateY(2px);
     background: url('../img/аккордеон.svg') right center no-repeat transparent;
     transform: rotate(-45deg);
@@ -792,9 +792,9 @@
 
   .quest__icon {
     display: inline-block;
-    min-width: 30px;
+    min-width: 50px;
     transform: translateY(2px);
-    background: url(../img/аккордеон-mobile.svg) right center no-repeat transparent;
+    background: url('../img/аккордеон-mobile.svg') right center no-repeat transparent;
   }
 
   .footer__nav {
