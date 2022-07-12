@@ -1,7 +1,7 @@
-document.addEventListener('click', () => {
+document.addEventListener('DOMContentLoaded', () => {
   let burger = document.querySelector('.burger')
   let menu = document.querySelector('.header__nav')
-  let menuLinks = document.querySelector('header__link')
+  let menuLinks = document.querySelectorAll('.header__link')
 
   burger.addEventListener('click', () => {
     burger.classList.toggle('burger--active')

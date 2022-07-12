@@ -6,6 +6,7 @@
   --color-white-1: #ffffff;
   --color-orange-1: #FF9900;
   --color-orange-2: #E1670E;
+  --color-orange-3: #FFB84D;
 }
 
 html {
@@ -86,6 +87,7 @@ body {
 }
 
 .burger {
+  cursor: pointer;
   display: none;
 }
 
@@ -215,6 +217,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border-radius: 32px;
 }
 
 .hero__wrapper-content {
@@ -254,6 +257,20 @@ body {
   line-height: 28px;
   font-weight: 700;
   border-radius: 16px;
+  transition: background-color .3s ease-in-out;
+}
+
+.hero__btn-link:focus-visible {
+  outline: 0;
+  background-color: var(--color-orange-3);
+}
+
+.hero__btn-link:hover {
+  background-color: var(--color-orange-3);
+}
+
+.hero__btn-link:active {
+  background-color: var(--color-orange-2);
 }
 
 .about__title {
