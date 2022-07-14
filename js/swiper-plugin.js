@@ -6,4 +6,10 @@ const swiper = new Swiper('.hero__swiper', {
     el: '.hero-pagination',
     clickable: true,
   },
+
+  breakpoints: {
+    1800: {
+      slidesPerView: 1,
+    }
+  }
 })
