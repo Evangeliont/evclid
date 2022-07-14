@@ -505,10 +505,10 @@ body {
 }
 
 .work__content-img-tab-4 {
-  background-image: url('../img/tab-3.png');
+  background-image: url('../img/tab-4.png');
 }
+
 .work__action-btn {
-  margin-top: 18px;
   position: absolute;
   bottom: 0;
 }

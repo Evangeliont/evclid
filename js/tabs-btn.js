@@ -6,14 +6,14 @@ document.addEventListener('DOMContentLoaded', () => {
     element.addEventListener('click', e => {
       const path = e.currentTarget.dataset.path
 
-      tabsBtn.forEach((btn) => {
+      tabsBtn.forEach(btn => {
         btn.classList.remove('tabs__btn--active')
       })
 
       e.currentTarget.classList.add('tabs__btn--active')
 
-      tabsItem.forEach(el => {
-        el.classList.remove('work__content--active')
+      tabsItem.forEach(element => {
+        element.classList.remove('work__content--active')
       })
 
       document.querySelector(`[data-target="${path}"]`).classList.add('work__content--active')
