@@ -576,3 +576,119 @@ body {
   border: 1px solid var(--color-black-1);
   color: var(--color-white-1);
 }
+
+.questions {
+  padding-bottom: 100px;
+}
+
+.questions__title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  margin-bottom: 32px;
+}
+
+.accordion__list {
+  max-width: 1770px;
+  width: 100%;
+}
+
+.accordion__item {
+  cursor: pointer;
+}
+
+.accordion__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding-top: 39px;
+  padding-bottom: 39px;
+
+  margin-top: -1px;
+}
+
+.accordion__btn {
+  cursor: pointer;
+  border-radius: 100%;
+  max-width: 50px;
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid grey;
+
+  font-size: 40px;
+  transition-property: transform;
+  transition: .2s ease-in-out;
+}
+
+.accordion__item:active .accordion__btn {
+  transform: rotate(45deg);
+}
+
+.accordion__top:hover, .accordion__top:focus-within {
+  border-color: orange;
+  position: relative;
+  z-index: 1;
+}
+
+.accordion__top:hover .accordion__btn,
+.accordion__top:focus-within .accordion__btn{
+  background-color: orange;
+  border-color: orange;
+  color: #fff;
+  outline: none;
+}
+
+.accordion__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.accordion__top:hover .accordion__title,
+.accordion__top:focus-within .accordion__title {
+  color: orange;
+}
+
+.accordion__description {
+  padding: 30px 0 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.accordion__top:focus-within {
+  outline: 0;
+}
+
+.accordion__item.is-active .accordion__top {
+  border-color: orange;
+}
+
+.accordion__item.is-active .accordion__btn {
+  transform: rotate(45deg);
+  background-color: orange;
+  border-color: orange;
+  color: #fff;
+}
+
+.accordion__item.is-active .accordion__top .accordion__title {
+  color: orange;
+}
+
+.accordion__item.is-active .accordion__top + .accordion__bottom {
+  border-bottom: 1px solid orange;
+  position: relative;
+  z-index: 2;
+}
+
+.accordion__item.ac {
+  margin: 0;
+  border: none;
+}
+
+.accordion__bottom {
+  line-height: 2;
+}
